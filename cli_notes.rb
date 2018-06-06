@@ -9,3 +9,4 @@ puts "Please input your last name:"
 last_name = gets.chomp
 game_number = "75"
 puts "Welcome to the #{game_number}th Hunger Games, #{first_name} #{last_name}."
+

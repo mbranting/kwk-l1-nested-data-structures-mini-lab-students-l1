@@ -15,5 +15,5 @@ puts "Welcome to the #{game_number}th Hunger Games, #{first_name} #{last_name}."
 loop do 
   puts "What is the integer"
   integer = gets.chomp
-  if integer %
+  if integer %2==0
   

@@ -10,4 +10,10 @@ last_name = gets.chomp
 game_number = "75"
 puts "Welcome to the #{game_number}th Hunger Games, #{first_name} #{last_name}."
 
-#make a program that take a 
+#Make a program that takes in a single integer value, and prints 'odd' or 'even' depending on which it is. The program should run forever, always waiting for input after it processes the previous
+
+loop do 
+  puts "What is the integer"
+  integer = gets.chomp
+  if integer %
+  

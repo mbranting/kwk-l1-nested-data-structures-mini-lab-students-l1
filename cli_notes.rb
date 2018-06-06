@@ -15,7 +15,7 @@
 loop do 
   puts "What is the integer"
   integer = gets.chomp
-  if "#{integer} % 2 == 0
+  if integer.to_i % 2 == 0
     puts "even"
   else
     puts "odd"

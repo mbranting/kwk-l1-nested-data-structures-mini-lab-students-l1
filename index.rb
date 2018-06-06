@@ -8,7 +8,16 @@ ingredients = [
 
 def sandwich_request(ingredients, order) 
   # your code here!
+  ingredients = [
+    ["rye", "sourdough", "baguette"],
+    ["ham", "salami", "turkey"],
+    ["swiss", "munster", "cheddar"],
+    ["mayo", "mustard", "tabasco"]
+]
+  if ingredients#{order}
+    puts "True"
 end
+puts sandwich_request(ingredients, "rye", "turkey", "cheddar")
 
 # example city_info hash
 cities = {
